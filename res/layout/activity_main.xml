@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity" 
+    android:orientation="vertical">
+
+   <TextView
+       android:id="@+id/tvPD"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:text="Select Beacon"
+       android:textSize="22sp" 
+       android:background="#000000"
+       android:textColor="#FFFFFF"
+       >
+            
+   </TextView>
+   
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_weight="2"
+        android:textAlignment="center"
+         >
+
+    </ListView>
+<TextView
+    android:id="@+id/temperatureView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:layout_weight="2"
+    android:gravity="center"
+    android:textSize="70sp" 
+    >
+            
+   </TextView>
+<TextView
+    android:id="@+id/timeView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textSize="22sp" 
+    >
+            
+   </TextView>
+
+<Button
+    android:id="@+id/button1"
+    
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Get Beacons"
+    />
+
+</LinearLayout>
